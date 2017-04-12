@@ -1,0 +1,55 @@
+{
+    "short_name": "Angular 2 Seed",
+    "name": "Angular 2 Seed",
+    "icons": [
+        {
+            "src": "img/icons/icon16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "img/icons/icon24.png",
+            "type": "image/png",
+            "sizes": "24x24"
+        },
+        {
+            "src": "img/icons/icon32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "img/icons/icon48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "img/icons/icon64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "img/icons/icon128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "img/icons/icon192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "img/icons/icon256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "img/icons/icon512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#eee",
+    "theme_color": "#eee",
+    "display": "standalone"
+}

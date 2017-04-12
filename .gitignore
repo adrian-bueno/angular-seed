@@ -1,0 +1,11 @@
+/aot
+/dist
+/node_modules
+/src/**/*.js
+*.js.map
+npm-debug.log
+debug.log
+
+!/src/js/**/*.js
+!/src/js/**/*.js.map
+!/src/systemjs.config.js

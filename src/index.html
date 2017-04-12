@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Angular 2 Seed</title>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ff5c00">
+    <meta name="msapplication-navbutton-color" content="#ff5c00">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ff5c00">
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="node_modules/material-design-icons/iconfont/material-icons.css">
+</head>
+
+<body>
+    <app>
+        <!-- Logo and spinner in the center of screen while app loads -->
+        <div class="loading-center">
+            <div class="loading-square-container">
+                <div class="loading-logo"></div>
+
+                <!-- Custom spinner -->
+                <!-- <div class="loading-spinner"></div> -->
+
+                <!-- Material spinner -->
+                <div class="preloader-wrapper small active custom-mat-spinner">
+                <div class="spinner-layer spinner-custom-color">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Progress bar -->
+                <!-- <br><br>
+                <div class="progress progress-bg-color">
+                    <div class="indeterminate progress-top-color"></div>
+                </div> -->
+            </div>
+        </div>
+    </app>
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('main.js').catch(function(err) {
+            console.error(err);
+        });
+    </script>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+</body>
+
+</html>
