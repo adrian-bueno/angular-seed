@@ -1,6 +1,7 @@
 # Build app for production
 rm -rf dist
-npm run build-prod
+npm run aot
+npm run rollup
 rm -rf aot
 cp -r src/img dist/img
 cp -r src/css dist/css

@@ -1,17 +1,7 @@
 {
-    "short_name": "Angular 2 Seed",
-    "name": "Angular 2 Seed",
+    "short_name": "Angular Seed",
+    "name": "Angular Seed",
     "icons": [
-        {
-            "src": "img/icons/icon16.png",
-            "type": "image/png",
-            "sizes": "16x16"
-        },
-        {
-            "src": "img/icons/icon24.png",
-            "type": "image/png",
-            "sizes": "24x24"
-        },
         {
             "src": "img/icons/icon32.png",
             "type": "image/png",
@@ -49,7 +39,7 @@
         }
     ],
     "start_url": "/",
-    "background_color": "#eee",
-    "theme_color": "#eee",
+    "background_color": "#6200EA",
+    "theme_color": "#6200EA",
     "display": "standalone"
 }

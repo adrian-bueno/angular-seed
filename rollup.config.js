@@ -31,6 +31,6 @@ export default {
         commonjs({
             include: 'node_modules/rxjs/**',
         }),
-        uglify() // TS tiene que exportar a ES5, con ES2015 sale error.
+        uglify() // Compile TS to ES5, with ES2015 does not work.
     ]
 }

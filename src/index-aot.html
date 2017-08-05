@@ -2,18 +2,16 @@
 <html>
 
 <head>
-    <title>Angular 2 Seed</title>
+    <title>Angular Seed</title>
     <base href="/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#ff5c00">
-    <meta name="msapplication-navbutton-color" content="#ff5c00">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#ff5c00">
+    <meta name="theme-color" content="#6200EA">
+    <meta name="msapplication-navbutton-color" content="#6200EA">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#6200EA">
     <link rel="manifest" href="manifest.json">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css" integrity="sha256-6DQKO56c9MZL0LAc7QNtxqJyqSa3rS9Gq5FVcIhtA+w=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/styles.css">
 
     <!-- #docregion moduleId -->
 	<script>window.module = 'aot';</script>
@@ -24,33 +22,12 @@
     <app>
         <!-- Logo and spinner in the center of screen while app loads -->
         <div class="loading-center">
-            <div class="loading-square-container">
-                <div class="loading-logo"></div>
-                <div class="preloader-wrapper small active custom-mat-spinner">
-                <div class="spinner-layer spinner-custom-color">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-                </div>
-            </div>
+            <div class="loading-spinner"></div>
         </div>
     </app>
 
-    <script src="https://unpkg.com/core-js/client/shim.min.js"></script>
-    <script src="https://unpkg.com/zone.js@0.8.5?main=browser"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/2.4.1/dash.all.min.js" integrity="sha256-TYNJDOm/gZb1PjW9YWo+P9zBPiCrcnUk/iiqPOSLPBw=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha256-eVNjHw5UeU0jUqPPpZHAkU1z4U+QFBBY488WvueTm88=" crossorigin="anonymous"></script>
-    <script src="http://hammerjs.github.io/dist/hammer-time.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js" integrity="sha256-ToPQhpo/E89yaCd7+V8LUCjobNRkjilRXfho6x3twLU=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.0.1/color-thief.min.js" integrity="sha256-fYYt9VmuVbEV36uYrcq2OswibsiRsM+kBL8tJsMpVwk=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/core-js@2.4.1/client/shim.min.js"></script>
+    <script src="https://unpkg.com/zone.js@0.8.16?main=browser"></script>
     <script src="app.js"></script>
 </body>
 </html>
