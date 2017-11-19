@@ -30,6 +30,15 @@ $ npm start
 
 Your default browser will open. App will be reloaded everytime you modify and safe a file in __/src__ directory.
 
+
+** When running _lite-server_, if an error like _"Error: watch ENOSPC"_ appears, run the following command:
+```
+$ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
+([Source1](https://github.com/remy/nodemon/issues/214),
+[Source2](https://stackoverflow.com/questions/16748737/grunt-watch-error-waiting-fatal-error-watch-enospc))
+
+
 # Production
 
 ```
@@ -63,8 +72,9 @@ server {
     server_name _;
 
     listen 80 default_server;
-    listen [::]:80 default_server ipv6only=on;
+    listen [::]:80 default_server;
     # listen 443 ssl;
+    # listen [::]:443 ssl;
 
     # ssl_certificate /etc/nginx/ssl/nginx.crt;
     # ssl_certificate_key /etc/nginx/ssl/nginx.key;
@@ -154,6 +164,7 @@ Current image size: __16.6 MB__
 │   ├── main.ts
 │   ├── manifest.json
 │   └── systemjs.config.js
+├── .dockerignore
 ├── .gitignore
 ├── build-prod.sh
 ├── clean-src.sh
