@@ -1,3 +1,5 @@
+__I recommend using [Angular CLI](https://cli.angular.io/).__
+
 ![angular-seed-icon](src/img/angular-seed.png?raw=true)
 
 This seed only contains the basic structure and files for browser web apps.
